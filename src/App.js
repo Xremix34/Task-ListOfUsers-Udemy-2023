@@ -15,9 +15,9 @@ export default function App() {
     });
   };
   return (
-    <div className="App">
+    <React.Fragment>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
-    </div>
+    </React.Fragment>
   );
 }
